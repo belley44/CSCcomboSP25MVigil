@@ -29,7 +29,7 @@ public class CheckInput {
     
     word = input.next();
     word = word.toUpperCase();
-    System.out.println("words go here " + word );
+    System.out.println("words go here\n\t " + word );
     
     
     
@@ -39,7 +39,7 @@ public class CheckInput {
     
     intNum = input.nextInt();
     
-    System.out.println("numbers go here " + intNum );
+    System.out.println("numbers go here\t " + intNum );
     
     
     
@@ -49,7 +49,7 @@ public class CheckInput {
     realNum = realNum + realNum;
    
     
-    System.out.println("real numbers go here " + realNum );
+    System.out.println("real numbers go here\t " + realNum );
     
     
     
@@ -58,7 +58,7 @@ public class CheckInput {
     biggerRealNum = biggerRealNum + biggerRealNum;
     
     
-    System.out.printf("big numbers go here" + biggerRealNum );
+    System.out.printf("big numbers go here\t " + biggerRealNum );
     
     
     
