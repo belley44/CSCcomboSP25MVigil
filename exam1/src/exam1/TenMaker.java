@@ -11,10 +11,16 @@ public class TenMaker {
 		int num = input.nextInt();
 		int num2 = input.nextInt();
 
-		System.out.println(makes100(num, num2));
+		if (makes10(num, num2)) { // updated if statement to make output more coherent
+			System.out.println(num + " plus " + num2 + " makes ten!");
+
+		} else {
+		}
 	}
 
-	public static boolean makes100(int x, int y) {
+//		System.out.println(makes10(num, num2)); // initial line i made
+
+	public static boolean makes10(int x, int y) {
 		return (x + y == 10);
 	}
 

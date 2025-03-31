@@ -19,7 +19,7 @@ public class Divider {
 
 	public static double divider(double x, double y) {
 		if (y == 0) {
-			System.out.println("You cannot divide by zero silly!");
+			System.out.println("These numbers cannot be divided.");
 			return y;	
 		}
 		if(y > 0) {
